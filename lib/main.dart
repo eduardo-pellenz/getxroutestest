@@ -41,7 +41,7 @@ class PageOne extends StatelessWidget {
         children: [
           ElevatedButton(
               onPressed: () {
-                Get.toNamed('/two/1234', parameters: {'wasd': '1234'});
+                Get.toNamed('/two/1234', arguments: '1234');
               },
               child: Text('Open PageTwo'))
         ],
